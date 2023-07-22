@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.736 s <<< FAILURE! - in TestSuite
+loginUser(test.Login)  Time elapsed: 11.137 s  <<< FAILURE!
+java.lang.AssertionError: expected [sharma.anamika+2@thinksys.com] but found [sharma.anamika@thinksys.com]
+	at test.Login.loginUser(Login.java:28)
+

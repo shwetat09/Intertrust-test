@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.736" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kumar.neeraj\Downloads\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\Users\kumar.neeraj\Downloads\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Denvironment=beta"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\kumar.neeraj\Downloads\apache-maven-3.8.1\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kumar.neeraj"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="kumar.neeraj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KUMAR~1.NEE\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\kumar.neeraj\Downloads\liveChat_BE-20230628T070632Z-001\liveChat_BE"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kumar.neeraj\Downloads\liveChat_BE-20230628T070632Z-001\liveChat_BE"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="environment" value="beta"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\kumar.neeraj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\kumar.neeraj\Downloads\apache-maven-3.8.1\bin;C:\Users\kumar.neeraj\AppData\Roaming\npm;C:\Users\kumar.neeraj\AppData\Local\Android\Sdk\tools\bin;C:\Users\kumar.neeraj\AppData\Local\Android\Sdk\tools;C:\Users\kumar.neeraj\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="classworlds.conf" value="C:\Users\kumar.neeraj\Downloads\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Users\kumar.neeraj\Downloads\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="loginUser" classname="test.Login" time="11.137">
+    <failure message="expected [sharma.anamika+2@thinksys.com] but found [sharma.anamika@thinksys.com]" type="java.lang.AssertionError">java.lang.AssertionError: expected [sharma.anamika+2@thinksys.com] but found [sharma.anamika@thinksys.com]
+	at test.Login.loginUser(Login.java:28)
+</failure>
+    <system-out><![CDATA[https://livechat-beta.myhousecallspro.com
+HTTP/1.1 200 OK
+Date: Thu, 29 Jun 2023 10:40:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 306
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Requested-With, Content-Type
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+ETag: W/"132-PKIk4Qtl680TnKtSTMKl7dlvL68"
+
+{
+    "success": true,
+    "otpChannel": {
+        "phone": "+1 XXXXXXXX99",
+        "email": "shaxxxnksys.com"
+    },
+    "otpToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUzZDYxMDViYTA5MTZkZWE5MTVkODUzYmNkN2I0NjdiIiwiaWF0IjoxNjg4MDM1MjI3LCJleHAiOjE2ODgwMzU1MjcsImlzcyI6IkhvdXNlQ2FsbHNQcm8ifQ.llDW3JTPuInz0_72OLLMfu_n41OaS94ho8ynik1fVWE"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUzZDYxMDViYTA5MTZkZWE5MTVkODUzYmNkN2I0NjdiIiwiaWF0IjoxNjg4MDM1MjI3LCJleHAiOjE2ODgwMzU1MjcsImlzcyI6IkhvdXNlQ2FsbHNQcm8ifQ.llDW3JTPuInz0_72OLLMfu_n41OaS94ho8ynik1fVWE
+https://livechat-beta.myhousecallspro.com
+Request method:	POST
+Request URI:	https://livechat-beta.myhousecallspro.com/api/v1/user/sendLiveChatOtp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Host=livechat-backend-beta.myhousecallspro.com
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUzZDYxMDViYTA5MTZkZWE5MTVkODUzYmNkN2I0NjdiIiwiaWF0IjoxNjg4MDM1MjI3LCJleHAiOjE2ODgwMzU1MjcsImlzcyI6IkhvdXNlQ2FsbHNQcm8ifQ.llDW3JTPuInz0_72OLLMfu_n41OaS94ho8ynik1fVWE
+				Accept=*/*
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "otpChannel": "phone",
+    "otp": "8617695407"
+}
+HTTP/1.1 200 OK
+Date: Thu, 29 Jun 2023 10:40:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 107
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Requested-With, Content-Type
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+ETag: W/"6b-SNPO92QDv2M+KJ158cE7HNXTiso"
+
+{
+    "success": true,
+    "message": "OTP has been sent successfully to the registered mobile number",
+    "otpAttempts": 0
+}
+https://livechat-beta.myhousecallspro.com
+Request method:	POST
+Request URI:	https://livechat-beta.myhousecallspro.com/api/v1/user/otp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Host=livechat-backend-beta.myhousecallspro.com
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUzZDYxMDViYTA5MTZkZWE5MTVkODUzYmNkN2I0NjdiIiwiaWF0IjoxNjg4MDM1MjI3LCJleHAiOjE2ODgwMzU1MjcsImlzcyI6IkhvdXNlQ2FsbHNQcm8ifQ.llDW3JTPuInz0_72OLLMfu_n41OaS94ho8ynik1fVWE
+				Accept=*/*
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "otp": "8617695407"
+}
+Welcome, You successfully logged in to Live Chat
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
